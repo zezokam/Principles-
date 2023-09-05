@@ -15,6 +15,7 @@ body {
   font-family: "Khalid", serif;
   background-color: #f1f1f1;
   margin: 0;
+  color: #000; /* Default text color for light mode */
 }
 
 header {
@@ -43,6 +44,7 @@ a {
   font-size: 20px; /* Adjust choices font size */
   position: relative; /* Add this property for positioning */
   margin-top: 30px;
+  color: #333; /* Adjust link color for better visibility */
 }
 
 /* ... (other CSS rules) ... */
@@ -55,7 +57,6 @@ a {
   text-align: center; /* Center the text horizontally */
   margin-bottom: 15px; /* Add space below the choice description */
 }
-
 
 footer {
   width: 100%;
@@ -74,17 +75,15 @@ footer p {
   padding: 0;
 }
 
-/* Default styles for light mode */
-body {
-  background-color: #f1f1f1;
-  color: #000;
-}
-
 /* Styles for dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #222;
-    color: #fff;
+    color: #fff; /* Text color for dark mode */
+  }
+
+  a {
+    color: #ccc; /* Link color for dark mode */
   }
 
   /* Add any additional styles for dark mode here */
