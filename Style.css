@@ -25,8 +25,8 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #f2f2f2;
-  color: #000; /* Header text color in light mode */
+  background-color: transparent; /* Set header background to transparent */
+  color: #333; /* Header text color */
 }
 
 /* Main Content Styles */
@@ -76,11 +76,6 @@ footer {
   body {
     background-color: #333; /* Dark mode background color */
     color: #fff; /* Dark mode text color */
-  }
-
-  header {
-    background-color: #222; /* Dark mode header background color */
-    color: #fff; /* Header text color in dark mode */
   }
 
   a {
