@@ -69,24 +69,3 @@ footer {
   font-size: 12px;
   color: #fff; /* Footer text color */
 }
-
-/* Dark Mode Styles */
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #333; /* Dark mode background color */
-    color: #fff; /* Dark mode text color */
-  }
-
-  a {
-    color: #4dabf7; /* Link color in dark mode for better visibility */
-  }
-
-  .choice-description {
-    color: #ccc; /* Description text color in dark mode */
-  }
-
-  footer {
-    background-color: #444; /* Footer background color in dark mode */
-  }
-}
