@@ -73,3 +73,19 @@ footer p {
   margin: 0;
   padding: 0;
 }
+
+/* Default styles for light mode */
+body {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* Styles for dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #fff;
+  }
+
+  /* Add any additional styles for dark mode here */
+}
